@@ -1,0 +1,27 @@
+# DNS-over-HTTPS (DoH) Server
+cloudflare-dns.com
+dns.google
+doh.opendns.com
+doh.cleanbrowsing.org
+dns.nextdns.io
+doh.securedns.eu
+doh.crypto.sx
+doh-fi.blahdns.com
+doh-de.blahdns.com
+doh-jp.blahdns.com
+mozilla.cloudflare-dns.com
+doh.dns.sb
+doh.libredns.gr
+
+# DNS-over-TLS (DoT) Server
+dns.google
+one.one.one.one
+cloudflare-dns.com
+dns.quad9.net
+dns9.quad9.net
+dns11.quad9.net
+dot.securedns.eu
+dns.dnswarden.com
+dot-jp.blahdns.com
+dot-de.blahdns.com
+dot-fi.blahdns.com
