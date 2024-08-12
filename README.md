@@ -1,14 +1,16 @@
-# Pi-hole DoH/DoT Blocklist
+### Open Pi-hole Admin Interface
 
-This repository provides a blocklist for Pi-hole that blocks known DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT) servers. This helps ensure that all DNS queries are routed through your Pi-hole, preventing clients from bypassing Pi-hole's filtering by using external encrypted DNS services.
+Access the Pi-hole web interface, typically available at [http://pi.hole/admin](http://pi.hole/admin) or `http://<your_pi-hole_ip>/admin`.
 
-## How to Add the Blocklist to Pi-hole
+### Go to Group Management > Adlists
 
-Follow these steps to add this blocklist to your Pi-hole setup:
+Navigate to **Group Management > Adlists** in the sidebar.
 
-### 1. Download the Blocklist
+### Add the Blocklist
 
-Clone this repository or download the `doh_dot_blocklist.txt` file directly:
+1. Click **Add a new adlist**.
+2. Enter the [URL](https://raw.githubusercontent.com/MonteLuck/blockDoH_DoT_Pihole/main/list).
 
-```bash
-git clone https://github.com/yourusername/pihole-doh-dot-blocklist.git
+### Update Gravity
+
+After adding the blocklist, go to **Tools > Update Gravity** and click **Update** to refresh Pi-hole with the new blocklist.
