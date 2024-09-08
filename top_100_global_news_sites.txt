@@ -101,3 +101,4 @@ t-online.de
 20min.ch
 ansa.it
 elmundo.es
+nzz.ch
